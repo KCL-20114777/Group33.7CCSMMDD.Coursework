@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="Lang_IVR.sandbox.KCL_voice_support__complete_0">
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Behaviour" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Data" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Event" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.MacVoice" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Style" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Variables" />
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.awt.Color" />
+    <classNode dependClassName="java.awt.Dimension" />
+    <classNode dependClassName="java.awt.event.ActionEvent" />
+    <classNode dependClassName="java.io.IOException" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="javax.swing.JButton" />
+    <classNode dependClassName="javax.swing.JPanel" />
+    <classNode dependClassName="javax.swing.border.Border" />
+    <classNode dependClassName="javax.swing.border.LineBorder" />
+    <classNode extendsClassName="java.awt.event.ActionListener" />
+  </dependency>
+  <dependency className="Lang_IVR.sandbox.Test_Demo_0">
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Behaviour" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Data" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Event" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.MacVoice" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Style" />
+    <classNode dependClassName="JAVA.IVR.runtime.runtime.Variables" />
+    <classNode dependClassName="java.awt.BorderLayout" />
+    <classNode dependClassName="java.awt.Color" />
+    <classNode dependClassName="java.awt.Dimension" />
+    <classNode dependClassName="java.awt.event.ActionEvent" />
+    <classNode dependClassName="java.io.IOException" />
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="javax.swing.JButton" />
+    <classNode dependClassName="javax.swing.JPanel" />
+    <classNode dependClassName="javax.swing.border.Border" />
+    <classNode dependClassName="javax.swing.border.LineBorder" />
+    <classNode extendsClassName="java.awt.event.ActionListener" />
+  </dependency>
+</dependenciesRoot>
+

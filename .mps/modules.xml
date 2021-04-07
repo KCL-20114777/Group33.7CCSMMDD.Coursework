@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/Lang_IVR/Lang_IVR.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Lang_IVR/sandbox/Lang_IVR.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GeneratorPlan/GeneratorPlan.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/IVR_TTSLibrary/IVR_TTSLibrary.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/JAVA.IVR.runtime/JAVA.IVR.runtime.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
