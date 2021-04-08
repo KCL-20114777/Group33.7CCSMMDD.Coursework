@@ -1,10 +1,10 @@
 # Group33.7CCSMMDD.Coursework
 
-## Please perform the below steps once this project is imported/cloned from Git:
+### Please perform the below steps once this project is imported/cloned from Git:
 
-1. For **Windows OS**: Set the Run configuration - Working directory path as "_C:\Program Files\JetBrains\MPS 2020.3_" 
+1. For **_Windows OS_**: Set the Run configuration - Working directory path as "_C:\Program Files\JetBrains\MPS 2020.3_" 
 
-2. For **Mac OS**: Set the Run configuration - Working directory path as "_/Applications/MPS 2020.3.app_"
+2. For **_Mac OS_**: Set the Run configuration - Working directory path as "_/Applications/MPS 2020.3.app_"
 
 3. Rebuild the project at the Header level (Top).
 
@@ -13,7 +13,7 @@
 5. Use the Sandbox model "**Test Demo**" to create new Grammar. Refer the attached 'User manual' for the steps to follow and other reference screenshots.
 
 
-## Reference documents:
+### Reference documents:
 1. User Manual (Steps to follow) :
 [User manual (steps to follow).pdf](https://github.com/KCL-20114777/Group33.7CCSMMDD.Coursework/files/6278899/User.manual.steps.to.follow.pdf)
 
@@ -23,5 +23,6 @@
 
 Github URL :  https://github.com/KCL-20114777/Group33.7CCSMMDD.Coursework.git
 
-Test pic upload
-![Reference Output](https://user-images.githubusercontent.com/81883585/114034892-85021080-9876-11eb-8d2f-e209d0497117.jpg)
+Reference output :
+![Reference Output](https://user-images.githubusercontent.com/81883585/114036223-cc3cd100-9877-11eb-9106-6fb573569cd9.jpg)
+
