@@ -24,5 +24,6 @@
 Github URL :  https://github.com/KCL-20114777/Group33.7CCSMMDD.Coursework.git
 
 Reference output :
-![Reference Output](https://user-images.githubusercontent.com/81883585/114036223-cc3cd100-9877-11eb-9106-6fb573569cd9.jpg)
+
+![Reference Output2](https://user-images.githubusercontent.com/81883585/114038172-8bde5280-9879-11eb-8305-509e3d38905f.jpg)
 
