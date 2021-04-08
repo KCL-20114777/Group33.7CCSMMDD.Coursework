@@ -8,6 +8,6 @@ Perform the below steps after imported/cloned this project from Git:
 
 3. Rebuild the project at the Header level (Top)
 
-4. Use the Sandbox model "KCL voice support (complete)" to test the Grammar already designed via Textual Editor. Before testing, use microphone / turn on the speaker to listen to the output.
+4. Use the Sandbox model "KCL voice support (complete)" to test the Grammar already designed via Textual Editor. Before testing, use earphone / turn on the speaker to listen to the output.
 
 5. Use the Sandbox model "Test Demo" to create new Grammar. Refer the attached 'User manual' for the steps to follow and other reference screenshots.
