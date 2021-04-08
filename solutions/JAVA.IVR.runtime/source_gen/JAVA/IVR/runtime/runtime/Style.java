@@ -27,7 +27,7 @@ public class Style {
   /**
    * program UI
    */
-  public static JTextArea myScreen = new JTextArea("", 13, 58);
+  public static JTextArea myScreen = new JTextArea("", 13, 35);
   public static JFrame frame = new JFrame("KCL Voice Support ( Developed by Arun  &  Abhijit ) ");
 
   public static JPanel myPhone = new JPanel(new BorderLayout(5, 0));
@@ -143,7 +143,7 @@ public class Style {
     header.setPreferredSize(new Dimension(100, 25));
     header.setComponentOrientation(ComponentOrientation.UNKNOWN);
     header.setEditable(false);
-    header.setText("                                                                                                     KINGS COLLEGE LONDON");
+    header.setText("                                                        KINGS COLLEGE LONDON");
     header.setMargin(inset);
     header.setBackground(Color.YELLOW);
     panel.add(header);
@@ -190,7 +190,7 @@ public class Style {
     frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     frame.pack();
     frame.setVisible(true);
-    frame.setResizable(false);
+    frame.setResizable(true);
   }
   public static void setContent() {
     // set visible content 

@@ -5030,7 +5030,7 @@
             <property role="3cmrfH" value="13" />
           </node>
           <node concept="3cmrfG" id="6VbSUrc55j$" role="37wK5m">
-            <property role="3cmrfH" value="58" />
+            <property role="3cmrfH" value="35" />
           </node>
         </node>
       </node>
@@ -6558,7 +6558,7 @@
             <node concept="liA8E" id="4DPIBqi9YaU" role="2OqNvi">
               <ref role="37wK5l" to="dxuu:~JEditorPane.setText(java.lang.String)" resolve="setText" />
               <node concept="Xl_RD" id="4DPIBqi9YaV" role="37wK5m">
-                <property role="Xl_RC" value="                                                                                                     KINGS COLLEGE LONDON" />
+                <property role="Xl_RC" value="                                                        KINGS COLLEGE LONDON" />
               </node>
             </node>
           </node>
@@ -7180,8 +7180,8 @@
             </node>
             <node concept="liA8E" id="3Z$IHi59Bwo" role="2OqNvi">
               <ref role="37wK5l" to="z60i:~Frame.setResizable(boolean)" resolve="setResizable" />
-              <node concept="3clFbT" id="3Z$IHi59B_q" role="37wK5m">
-                <property role="3clFbU" value="false" />
+              <node concept="3clFbT" id="3eWu1Yp$_hL" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
