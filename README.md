@@ -11,3 +11,11 @@ Perform the below steps after imported/cloned this project from Git:
 4. Use the Sandbox model "KCL voice support (complete)" to test the Grammar already designed via Textual Editor. Before testing, use earphone / turn on the speaker to listen to the output.
 
 5. Use the Sandbox model "Test Demo" to create new Grammar. Refer the attached 'User manual' for the steps to follow and other reference screenshots.
+
+Reference documents:
+1. User Manual (Steps to follow) :
+[User manual (steps to follow).pdf](https://github.com/KCL-20114777/Group33.7CCSMMDD.Coursework/files/6278899/User.manual.steps.to.follow.pdf)
+
+2. User manual (validations and contextual Intentions) :
+[User manual (validations and contextual Intentions).pdf](https://github.com/KCL-20114777/Group33.7CCSMMDD.Coursework/files/6278902/User.manual.validations.and.contextual.Intentions.pdf)
+
