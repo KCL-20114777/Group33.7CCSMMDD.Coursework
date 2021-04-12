@@ -28,7 +28,7 @@
     </language>
   </registry>
   <node concept="2VgMpV" id="7isjrWTAJbx">
-    <property role="TrG5h" value="VoiceMenu generation plan" />
+    <property role="TrG5h" value="IVR generation plan" />
     <node concept="2VgMA2" id="7isjrWTAJbz" role="2VgMA7">
       <node concept="2V$Bhx" id="7inxGR_SJD2" role="1t_9vn">
         <property role="2V$B1T" value="124f7f4f-c7fa-46ce-8578-0272621cca38" />

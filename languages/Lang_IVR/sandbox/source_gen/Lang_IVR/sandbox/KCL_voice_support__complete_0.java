@@ -574,45 +574,10 @@ public class KCL_voice_support__complete_0 implements ActionListener {
     Postgraduate_courses_cgk74p_c0.childs = new ArrayList<Event>();
     Postgraduate_courses_cgk74p_c0.childs.add(Postgraduate_subject_area_cgk74p_a0c0);
     Postgraduate_courses_cgk74p_c0.childs.add(Back_to_previous_menu_cgk74p_b0c0);
-    Event Back_to_previous_menu_cgk74p_d0 = new Event("Back to previous menu", "*");
-    Back_to_previous_menu_cgk74p_d0.isFinal = false;
-    Back_to_previous_menu_cgk74p_d0.setAction("", false);
-    Back_to_previous_menu_cgk74p_d0.playback = "About Kings Accommodation";
-    Back_to_previous_menu_cgk74p_d0.childs = new ArrayList<Event>();
-    Variables.myHashMap.put("0*", Back_to_previous_menu_cgk74p_d0);
-    Event Residences_cgk74p_a0d0 = new Event("Residences", "1");
-    Residences_cgk74p_a0d0.isFinal = false;
-    Residences_cgk74p_a0d0.setAction("", false);
-    Residences_cgk74p_a0d0.playback = "Explore our residences, we've got accommodation to suit a range of budgets ";
-    Residences_cgk74p_a0d0.childs = new ArrayList<Event>();
-    Variables.myHashMap.put("0*1", Residences_cgk74p_a0d0);
-    Residences_cgk74p_a0d0.setAction("back", false);
-    Residences_cgk74p_a0d0.childs = new ArrayList<Event>();
-    Event How_to_book_accommodation_cgk74p_b0d0 = new Event("How to book accommodation", "2");
-    How_to_book_accommodation_cgk74p_b0d0.isFinal = false;
-    How_to_book_accommodation_cgk74p_b0d0.setAction("", false);
-    How_to_book_accommodation_cgk74p_b0d0.playback = "Before you make a booking though, explore our residences page to fully understand the location, room fees, and facilities available at each residence.";
-    How_to_book_accommodation_cgk74p_b0d0.childs = new ArrayList<Event>();
-    Variables.myHashMap.put("0*2", How_to_book_accommodation_cgk74p_b0d0);
-    How_to_book_accommodation_cgk74p_b0d0.setAction("back", false);
-    How_to_book_accommodation_cgk74p_b0d0.childs = new ArrayList<Event>();
-    Event Back_to_previous_menu_cgk74p_c0d0 = new Event("Back to previous menu", "*");
-    Back_to_previous_menu_cgk74p_c0d0.isFinal = false;
-    Back_to_previous_menu_cgk74p_c0d0.setAction("", false);
-    Back_to_previous_menu_cgk74p_c0d0.playback = "going back to previous menu";
-    Back_to_previous_menu_cgk74p_c0d0.childs = new ArrayList<Event>();
-    Variables.myHashMap.put("0**", Back_to_previous_menu_cgk74p_c0d0);
-    Back_to_previous_menu_cgk74p_c0d0.setAction("back", false);
-    Back_to_previous_menu_cgk74p_c0d0.childs = new ArrayList<Event>();
-    Back_to_previous_menu_cgk74p_d0.childs = new ArrayList<Event>();
-    Back_to_previous_menu_cgk74p_d0.childs.add(Residences_cgk74p_a0d0);
-    Back_to_previous_menu_cgk74p_d0.childs.add(How_to_book_accommodation_cgk74p_b0d0);
-    Back_to_previous_menu_cgk74p_d0.childs.add(Back_to_previous_menu_cgk74p_c0d0);
 
     Home.childs.add(About_KCL_cgk74p_a0);
     Home.childs.add(Undergraduate_courses_cgk74p_b0);
     Home.childs.add(Postgraduate_courses_cgk74p_c0);
-    Home.childs.add(Back_to_previous_menu_cgk74p_d0);
 
 
   }

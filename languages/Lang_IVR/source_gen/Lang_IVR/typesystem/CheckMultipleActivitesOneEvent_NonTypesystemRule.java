@@ -35,7 +35,7 @@ public class CheckMultipleActivitesOneEvent_NonTypesystemRule extends AbstractNo
       })) {
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
-          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(currentActivity, "Duplicate reference to Event", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "4006054146229775532", null, errorTarget);
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(currentActivity, "Duplicate Activity: This activity has already been defined.", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "4006054146229775532", null, errorTarget);
         }
       }
     }

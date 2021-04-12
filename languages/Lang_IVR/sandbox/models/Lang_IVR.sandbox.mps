@@ -47,10 +47,6 @@
         <property role="2QQf2Q" value="3" />
         <property role="TrG5h" value="Postgraduate courses" />
       </node>
-      <node concept="2QQfCq" id="55qojgQtVPB" role="2QQfCj">
-        <property role="2QQf2Q" value="*" />
-        <property role="TrG5h" value="Back to previous menu" />
-      </node>
       <node concept="2QQfCl" id="55qojgQtVPC" role="2QQfCH">
         <property role="2p1wJ0" value=",    Menu 1 ,    ,King's College London, informally King's or K C L, is a public research university located in London, United Kingdom " />
         <ref role="2QQfCg" node="55qojgQtVPy" resolve="About KCL" />
@@ -640,39 +636,6 @@
             <property role="2p1wJ0" value="going back to previous menu" />
             <ref role="2QQfCg" node="55qojgQtVQL" resolve="Back to previous menu" />
             <node concept="2QQpPZ" id="55qojgQtVS1" role="2QP_zp" />
-          </node>
-        </node>
-      </node>
-      <node concept="2QQfCl" id="55qojgQtVS2" role="2QQfCH">
-        <property role="2p1wJ0" value="About Kings Accommodation" />
-        <ref role="2QQfCg" node="55qojgQtVPB" resolve="Back to previous menu" />
-        <node concept="2QQfCi" id="55qojgQtVS3" role="2QP_zp">
-          <node concept="2QQfCq" id="55qojgQtVS4" role="2QQfCj">
-            <property role="2QQf2Q" value="1" />
-            <property role="TrG5h" value="Residences" />
-          </node>
-          <node concept="2QQfCq" id="55qojgQtVS5" role="2QQfCj">
-            <property role="2QQf2Q" value="2" />
-            <property role="TrG5h" value="How to book accommodation" />
-          </node>
-          <node concept="2QQfCq" id="55qojgQtVS6" role="2QQfCj">
-            <property role="2QQf2Q" value="*" />
-            <property role="TrG5h" value="Back to previous menu" />
-          </node>
-          <node concept="2QQfCl" id="55qojgQtVS7" role="2QQfCH">
-            <property role="2p1wJ0" value="Explore our residences, we've got accommodation to suit a range of budgets " />
-            <ref role="2QQfCg" node="55qojgQtVS4" resolve="Residences" />
-            <node concept="2QQpPZ" id="55qojgQtVS8" role="2QP_zp" />
-          </node>
-          <node concept="2QQfCl" id="55qojgQtVS9" role="2QQfCH">
-            <property role="2p1wJ0" value="Before you make a booking though, explore our residences page to fully understand the location, room fees, and facilities available at each residence." />
-            <ref role="2QQfCg" node="55qojgQtVS5" resolve="How to book accommodation" />
-            <node concept="2QQpPZ" id="55qojgQtVSa" role="2QP_zp" />
-          </node>
-          <node concept="2QQfCl" id="55qojgQtVSb" role="2QQfCH">
-            <property role="2p1wJ0" value="going back to previous menu" />
-            <ref role="2QQfCg" node="55qojgQtVS6" resolve="Back to previous menu" />
-            <node concept="2QQpPZ" id="55qojgQtVSc" role="2QP_zp" />
           </node>
         </node>
       </node>

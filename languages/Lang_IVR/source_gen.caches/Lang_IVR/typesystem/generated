@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-1g1vcrew3saa3kjumxtbx08wecoenwk">
+<product version="3" modelHash="-441j4veiphrnbceirb9p1dxabkqryry">
   <files names="CheckCategoryAdded_NonTypesystemRule.java:CheckDialPadInput_NonTypesystemRule.java:CheckDuplicateNumber_NonTypesystemRule.java:CheckEmptyACtivity_NonTypesystemRule.java:CheckEmptyMenu_NonTypesystemRule.java:CheckMultipleActivitesOneEvent_NonTypesystemRule.java:TypesystemDescriptor.java" />
 </product>
 

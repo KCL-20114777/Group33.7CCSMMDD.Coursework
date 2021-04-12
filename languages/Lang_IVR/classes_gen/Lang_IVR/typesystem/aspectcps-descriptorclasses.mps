@@ -2308,7 +2308,7 @@
                               <uo k="s:originTrace" v="n:4006054146229775590" />
                             </node>
                             <node concept="Xl_RD" id="a2" role="37wK5m">
-                              <property role="Xl_RC" value="Duplicate reference to Event" />
+                              <property role="Xl_RC" value="Duplicate Activity: This activity has already been defined." />
                               <uo k="s:originTrace" v="n:4006054146229775551" />
                             </node>
                             <node concept="Xl_RD" id="a3" role="37wK5m">

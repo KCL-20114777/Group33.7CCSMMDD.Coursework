@@ -386,13 +386,6 @@
         <property id="8575328350543493365" name="message" index="huDt6" />
         <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -2037,15 +2030,6 @@
           <node concept="2jZ$wS" id="5o6E870Yn$r" role="2jZA2a" />
           <node concept="1hCUdq" id="5o6E870Yn$s" role="1hCUd6">
             <node concept="3clFbS" id="5o6E870Yn$u" role="2VODD2">
-              <node concept="1X3_iC" id="4eAuTQlK3BU" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="5o6E870YnI6" role="8Wnug">
-                  <node concept="Xl_RD" id="5o6E870YnI5" role="3clFbG">
-                    <property role="Xl_RC" value="Add new Activity" />
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="4eAuTQlK3Lc" role="3cqZAp">
                 <node concept="Xl_RD" id="4eAuTQlK3Lb" role="3clFbG">
                   <property role="Xl_RC" value="Add new Dialpad button" />

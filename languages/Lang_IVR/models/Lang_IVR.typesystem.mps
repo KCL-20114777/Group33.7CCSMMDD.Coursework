@@ -238,7 +238,7 @@
             <node concept="3clFbS" id="3uonglx0nBs" role="3clFbx">
               <node concept="2MkqsV" id="3uonglx0qMG" role="3cqZAp">
                 <node concept="Xl_RD" id="3uonglx0qMZ" role="2MkJ7o">
-                  <property role="Xl_RC" value="Duplicate reference to Event" />
+                  <property role="Xl_RC" value="Duplicate Activity: This activity has already been defined." />
                 </node>
                 <node concept="2GrUjf" id="3uonglx0qNA" role="1urrMF">
                   <ref role="2Gs0qQ" node="3uonglx0nAi" resolve="currentActivity" />
