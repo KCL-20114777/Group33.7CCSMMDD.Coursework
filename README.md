@@ -12,6 +12,8 @@
 
 5. Use the Sandbox model "**Test Demo**" to create new Grammar. Refer the attached 'User manual' for the steps to follow and other reference screenshots.
 
+6. Click 'Green' button on the Dialpad to start using the IVR Tool.
+
 
 ### Reference documents:
 1. User Manual (Steps to follow) :
