@@ -4,7 +4,7 @@ Please note that this coursework is done using **Jetbrains MPS IDE workbench**.
 You may download MPS from the below URL: 
 https://www.jetbrains.com/mps/download/#section=windows
 
-Please perform the below steps in MPS, once this project is imported/cloned from Git:
+Please **perform the below steps in MPS**, once this project is imported/cloned from Git:
 
 1. For **_Windows OS_**: Set the Run configuration - Working directory path as "_C:\Program Files\JetBrains\MPS 2020.3_" 
 
