@@ -29,7 +29,8 @@ Github URL :  https://github.com/KCL-20114777/Group33.7CCSMMDD.Coursework.git
 
 Reference output :
 
-![KCL IVR Tool](https://user-images.githubusercontent.com/81883585/114865216-d9af0980-9de9-11eb-90f2-cb3d4b2e651a.jpg)
+![KCL IVR Tool2](https://user-images.githubusercontent.com/81883585/114865600-64900400-9dea-11eb-8809-288c0728b1fe.jpg)
+
 
 
 
