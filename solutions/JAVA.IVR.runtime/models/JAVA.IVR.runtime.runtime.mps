@@ -1381,20 +1381,6 @@
               </node>
             </node>
             <node concept="3clFbS" id="60WteoFZzxT" role="1zc67A">
-              <node concept="3clFbF" id="60WteoFZzxU" role="3cqZAp">
-                <node concept="2OqwBi" id="60WteoFZzPK" role="3clFbG">
-                  <node concept="10M0yZ" id="60WteoFZzPJ" role="2Oq$k0">
-                    <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                    <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  </node>
-                  <node concept="liA8E" id="60WteoFZzPL" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                    <node concept="Xl_RD" id="60WteoFZzPM" role="37wK5m">
-                      <property role="Xl_RC" value="File does NOT exist\ntext used as input for generating speech" />
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="60WteoFZ_c$" role="3cqZAp">
                 <node concept="2OqwBi" id="60WteoFZ_PQ" role="3clFbG">
                   <node concept="10M0yZ" id="60WteoFZ_MT" role="2Oq$k0">
@@ -5986,10 +5972,10 @@
               <node concept="1pGfFk" id="4DPIBqi9VZG" role="2ShVmc">
                 <ref role="37wK5l" to="z60i:~Dimension.&lt;init&gt;(int,int)" resolve="Dimension" />
                 <node concept="3cmrfG" id="4DPIBqi9WcD" role="37wK5m">
-                  <property role="3cmrfH" value="78" />
+                  <property role="3cmrfH" value="88" />
                 </node>
                 <node concept="3cmrfG" id="4DPIBqi9X7L" role="37wK5m">
-                  <property role="3cmrfH" value="50" />
+                  <property role="3cmrfH" value="70" />
                 </node>
               </node>
             </node>
@@ -6019,7 +6005,7 @@
               <node concept="1pGfFk" id="4DPIBqi9V6c" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
                 <node concept="Xl_RD" id="4DPIBqi9V6d" role="37wK5m">
-                  <property role="Xl_RC" value="" />
+                  <property role="Xl_RC" value="ON" />
                 </node>
               </node>
             </node>
@@ -6052,7 +6038,7 @@
               <node concept="1pGfFk" id="4DPIBqia27b" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JButton.&lt;init&gt;(java.lang.String)" resolve="JButton" />
                 <node concept="Xl_RD" id="4DPIBqia2xT" role="37wK5m">
-                  <property role="Xl_RC" value="" />
+                  <property role="Xl_RC" value="OFF" />
                 </node>
               </node>
             </node>
@@ -6706,6 +6692,20 @@
                     <property role="3cmrfH" value="5" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5UJ3ioNpF_n" role="3cqZAp">
+          <node concept="2OqwBi" id="5UJ3ioNpG7p" role="3clFbG">
+            <node concept="37vLTw" id="5UJ3ioNpF_l" role="2Oq$k0">
+              <ref role="3cqZAo" node="6VbSUrc4V$o" resolve="myScreen" />
+            </node>
+            <node concept="liA8E" id="5UJ3ioNpMpa" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~JComponent.setBackground(java.awt.Color)" resolve="setBackground" />
+              <node concept="10M0yZ" id="5UJ3ioNpNst" role="37wK5m">
+                <ref role="3cqZAo" to="z60i:~Color.LIGHT_GRAY" resolve="LIGHT_GRAY" />
+                <ref role="1PxDUh" to="z60i:~Color" resolve="Color" />
               </node>
             </node>
           </node>

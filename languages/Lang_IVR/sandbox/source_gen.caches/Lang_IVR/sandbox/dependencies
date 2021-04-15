@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="Lang_IVR.sandbox.KCL_voice_support__complete_0">
+  <dependency className="Lang_IVR.sandbox.KCL_voice_support_0">
     <classNode dependClassName="JAVA.IVR.runtime.runtime.Behaviour" />
     <classNode dependClassName="JAVA.IVR.runtime.runtime.Data" />
     <classNode dependClassName="JAVA.IVR.runtime.runtime.Event" />

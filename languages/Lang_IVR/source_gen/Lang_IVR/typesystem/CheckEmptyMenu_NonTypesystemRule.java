@@ -23,12 +23,16 @@ public class CheckEmptyMenu_NonTypesystemRule extends AbstractNonTypesystemRule_
   public CheckEmptyMenu_NonTypesystemRule() {
   }
   public void applyRule(final SNode menuList, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+
     if ((Sequence.fromIterable(SLinkOperations.collectMany(SNodeOperations.ofConcept(SLinkOperations.collect(SLinkOperations.getChildren(menuList, LINKS.Activities$Yn5V), LINKS.Command$$0sU), CONCEPTS.MenuList$_b), LINKS.Activities$Yn5V)).isEmpty() && ListSequence.fromList(SLinkOperations.getChildren(menuList, LINKS.Label$YmBT)).isEmpty())) {
+
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportWarning(menuList, "Dialpad Menulist is empty..!  Please fill.", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "4006054146229785063", null, errorTarget);
       }
+
     }
+
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.MenuList$_b;

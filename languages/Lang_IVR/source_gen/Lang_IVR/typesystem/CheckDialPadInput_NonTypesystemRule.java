@@ -21,15 +21,21 @@ public class CheckDialPadInput_NonTypesystemRule extends AbstractNonTypesystemRu
   public CheckDialPadInput_NonTypesystemRule() {
   }
   public void applyRule(final SNode addNewCategory, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+
     if (isNotEmptyString(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs))) {
-      if ((Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "1")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "2")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "3")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "4")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "5")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "6")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "7")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "8")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "9")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "*")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "+")) || Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "#") || Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "0")) {
+
+      if ((Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "*")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "#")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "1")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "2")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "3")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "4")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "5")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "6")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "7")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "8")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "9")) || (Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "0")) || Objects.equals(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs), "+")) {
       } else {
+
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(addNewCategory, "Invalid Dialpad Number. Valid numbers are 0 ~ 9, * and #", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "4006054146230504440", null, errorTarget);
         }
+
       }
+
     }
+
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.AddNewCategory$n8;

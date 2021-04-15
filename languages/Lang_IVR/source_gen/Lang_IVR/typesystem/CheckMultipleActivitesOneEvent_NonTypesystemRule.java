@@ -26,19 +26,26 @@ public class CheckMultipleActivitesOneEvent_NonTypesystemRule extends AbstractNo
   public CheckMultipleActivitesOneEvent_NonTypesystemRule() {
   }
   public void applyRule(final SNode menuList, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+
     Iterable<SNode> Activities = SLinkOperations.getChildren(menuList, LINKS.Activities$Yn5V);
+
     for (final SNode currentActivity : Sequence.fromIterable(Activities)) {
+
       if (Sequence.fromIterable(Activities).any(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return !(Objects.equals(it, currentActivity)) && Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(it, LINKS.Dial_Label$YlIg), PROPS.InputKey$DmEs), SPropertyOperations.getString(SLinkOperations.getTarget(currentActivity, LINKS.Dial_Label$YlIg), PROPS.InputKey$DmEs));
         }
       })) {
+
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(currentActivity, "Duplicate Activity: This activity has already been defined.", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "4006054146229775532", null, errorTarget);
         }
+
       }
+
     }
+
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.MenuList$_b;

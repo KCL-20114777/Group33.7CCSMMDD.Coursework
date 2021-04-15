@@ -22,12 +22,16 @@ public class CheckEmptyACtivity_NonTypesystemRule extends AbstractNonTypesystemR
   public CheckEmptyACtivity_NonTypesystemRule() {
   }
   public void applyRule(final SNode IncludeActivities, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+
     if ((Sequence.fromIterable(SNodeOperations.ofConcept(SNodeOperations.getChildren(IncludeActivities), CONCEPTS.DoAct$oD)).isEmpty() && Sequence.fromIterable(SNodeOperations.ofConcept(SNodeOperations.getChildren(IncludeActivities), CONCEPTS.MenuList$_b)).isEmpty()) || (SLinkOperations.getTarget(IncludeActivities, LINKS.Dial_Label$YlIg) == null)) {
+
       {
         final MessageTarget errorTarget = new NodeMessageTarget();
         IErrorReporter _reporter_2309309498 = typeCheckingContext.reportWarning(IncludeActivities, "Incomplete Activity", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "584072856212762008", null, errorTarget);
       }
+
     }
+
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.IncludeActivities$o_;

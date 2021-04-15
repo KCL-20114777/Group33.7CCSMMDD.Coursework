@@ -26,19 +26,27 @@ public class CheckCategoryAdded_NonTypesystemRule extends AbstractNonTypesystemR
   public CheckCategoryAdded_NonTypesystemRule() {
   }
   public void applyRule(final SNode addNewCategory, final TypeCheckingContext typeCheckingContext, IsApplicableStatus status) {
+
     if (isNotEmptyString(SPropertyOperations.getString(addNewCategory, PROPS.name$MnvL)) && isNotEmptyString(SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs))) {
+
       if (Sequence.fromIterable(SNodeOperations.ofConcept(SNodeOperations.getChildren(SNodeOperations.getParent(addNewCategory)), CONCEPTS.IncludeActivities$o_)).any(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return SPropertyOperations.getString(SLinkOperations.getTarget(it, LINKS.Dial_Label$YlIg), PROPS.name$MnvL) == SPropertyOperations.getString(addNewCategory, PROPS.name$MnvL) && Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(it, LINKS.Dial_Label$YlIg), PROPS.InputKey$DmEs), SPropertyOperations.getString(addNewCategory, PROPS.InputKey$DmEs));
         }
       })) {
+
+
       } else {
+
         {
           final MessageTarget errorTarget = new NodeMessageTarget();
           IErrorReporter _reporter_2309309498 = typeCheckingContext.reportWarning(addNewCategory, "No activity/action has been set for this Dialpad number yet", "r:883ed43f-b821-4541-878e-1c26ac000d73(Lang_IVR.typesystem)", "4006054146229833569", null, errorTarget);
         }
+
       }
+
     }
+
   }
   public SAbstractConcept getApplicableConcept() {
     return CONCEPTS.AddNewCategory$n8;

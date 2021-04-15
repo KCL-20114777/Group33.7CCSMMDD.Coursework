@@ -107,11 +107,11 @@ public class Style {
   private static void setCallButtons(JPanel panel) {
     Border border = new LineBorder(Color.white, 22);
     Border emptyBorder = new LineBorder(Color.white, 10);
-    Dimension dim = new Dimension(78, 50);
+    Dimension dim = new Dimension(88, 70);
     // create new buttons 
-    JButton buttonCall = new JButton("");
+    JButton buttonCall = new JButton("ON");
     JButton buttonVoice = new JButton("KINGS");
-    JButton buttonEnd = new JButton("");
+    JButton buttonEnd = new JButton("OFF");
     // customize buttons look 
     customizeButton(buttonCall, border, dim, Color.GREEN);
     customizeButton(buttonVoice, emptyBorder, dim, Color.ORANGE);
@@ -156,6 +156,7 @@ public class Style {
   private static void setScreen(JTextArea myScreen) {
     myScreen.setFont(new Font("Arial", Font.BOLD, 16));
     myScreen.setMargin(new Insets(5, 5, 5, 5));
+    myScreen.setBackground(Color.LIGHT_GRAY);
   }
   private static void setTopPanel(JPanel topPanel) {
     JPanel myHeader = new JPanel(new BorderLayout(0, 0));

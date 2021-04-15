@@ -32,7 +32,7 @@
     </language>
   </registry>
   <node concept="2QQfCv" id="55qojgQtVPw">
-    <property role="TrG5h" value="KCL voice support (complete)" />
+    <property role="TrG5h" value="KCL voice support" />
     <property role="14ErED" value="Welcome to Kings College London voice support, developed by      Aroon     and   Abhijit               .,      " />
     <node concept="2QQfCi" id="55qojgQtVPx" role="2QQfCC">
       <node concept="2QQfCq" id="55qojgQtVPy" role="2QQfCj">

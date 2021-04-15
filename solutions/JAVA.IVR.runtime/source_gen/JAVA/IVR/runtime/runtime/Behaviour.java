@@ -153,7 +153,6 @@ public class Behaviour {
         Variables.playbackisFile = true;
       }
     } catch (Exception e) {
-      System.out.println("File does NOT exist\ntext used as input for generating speech");
       Variables.voice.addText(path);
     }
   }
