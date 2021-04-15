@@ -8,9 +8,9 @@
 
 3. Rebuild the project at the Header level (Top).
 
-4. Use the Sandbox model "**KCL voice support**" to test the Grammar already designed via Textual Editor. Before testing, use earphone / turn on the speaker to listen to the output.
+4. Use the Sandbox model "**KCL voice support**" to test already designed template langauge via Textual Editor. Before testing, use earphone / turn on the speaker to listen to the output.
 
-5. Use the Sandbox model "**Test Demo**" to create new Grammar in the Text Editor. Refer the attached '**User manual**' for the steps to follow and other reference screenshots.
+5. Use the Sandbox model "**Test Demo**" to create new IVR template using the Text Editor. Refer the attached '**User manual**' for the steps to follow and other reference screenshots.
 
 6. Click 'Green' button on the Dialpad to start using the IVR Tool.
 
